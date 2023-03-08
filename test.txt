@@ -1,0 +1,146 @@
+https://api-pokemon-fr.vercel.app/
+
+{
+    "pokedexId": 25,
+    "generation": 1,
+    "category": "Pokémon Souris",
+    "name": {
+        "fr": "Pikachu",
+        "en": "Pikachu",
+        "jp": "ピカチュウ"
+    },
+    "sprites": {
+        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png",
+        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/shiny.png",
+        "gmax": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/gmax-regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/gmax-shiny.png"
+        }
+    },
+    "types": [
+        {
+            "name": "Électrik",
+            "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
+        }
+    ],
+    "talents": [
+        {
+            "name": "Statik",
+            "tc": false
+        },
+        {
+            "name": "Paratonnerre",
+            "tc": true
+        }
+    ],
+    "stats": {
+        "hp": 45,
+        "atk": 80,
+        "def": 50,
+        "spe_atk": 75,
+        "spe_def": 60,
+        "vit": 120
+    },
+    "resistances": [
+        {
+            "name": "Normal",
+            "multiplier": 1
+        },
+        {
+            "name": "Plante",
+            "multiplier": 1
+        },
+        {
+            "name": "Feu",
+            "multiplier": 1
+        },
+        {
+            "name": "Eau",
+            "multiplier": 1
+        },
+        {
+            "name": "Électrik",
+            "multiplier": 0.5
+        },
+        {
+            "name": "Glace",
+            "multiplier": 1
+        },
+        {
+            "name": "Combat",
+            "multiplier": 1
+        },
+        {
+            "name": "Poison",
+            "multiplier": 1
+        },
+        {
+            "name": "Sol",
+            "multiplier": 2
+        },
+        {
+            "name": "Vol",
+            "multiplier": 0.5
+        },
+        {
+            "name": "Psy",
+            "multiplier": 1
+        },
+        {
+            "name": "Insecte",
+            "multiplier": 1
+        },
+        {
+            "name": "Roche",
+            "multiplier": 1
+        },
+        {
+            "name": "Spectre",
+            "multiplier": 1
+        },
+        {
+            "name": "Dragon",
+            "multiplier": 1
+        },
+        {
+            "name": "Ténèbres",
+            "multiplier": 1
+        },
+        {
+            "name": "Acier",
+            "multiplier": 0.5
+        },
+        {
+            "name": "Fée",
+            "multiplier": 1
+        }
+    ],
+    "evolution": {
+        "pre": [
+            {
+                "pokedexId": 172,
+                "name": "Pichu"
+            }
+        ],
+        "next": [
+            {
+                "pokedexId": 26,
+                "name": "Raichu",
+                "condition": "Pierre Foudre"
+            }
+        ],
+        "mega": null
+    },
+    "height": "0,4 m",
+    "weight": "6,0 kg",
+    "egg_groups": [
+        "Terrestre",
+        "Féerique"
+    ],
+    "sexe": {
+        "male": 50.0,
+        "female": 50.0
+    },
+    "catch_rate": 190,
+    "level_100": 1000000
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: #d6e5e9;
+    font-family: "Asap Condensed", sans-serif;
+    margin: 2em;
+}
+
+.title {
+    font-size: 5em;
+    text-align: center;
+}
+
+.searchPkmn {
+    margin: 2em;
+    font-size: 1.5em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.card {
+    border: solid 3px #70c1df;
+    border-radius: 3%;
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+.imgPkmn {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+
+.pkmnCard {
+    background-color: #70c1df;
+}
+
+.namePkmn {
+    margin: 0.5em;
+    font-size: 1.5em;
+}
+
+/* PokemonInfo */
+
+.container {
+    border: 1px solid black;
+    height: 100%;
+}
