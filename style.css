@@ -66,6 +66,54 @@ body {
 .sectionUp,
 .sectionDown {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    border: 1px solid black;
+    /* height: 50%; */
+}
+.sectionUp {
+    width: 55em;
+    height: 60%;
+    position: absolute;
+    top: 10em;
+    justify-content: space-around;
+}
+
+.sectionDown {
+    width: 55em;
+    height: 50%;
+    position: absolute;
+    top: 36em;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    width: 30em;
+    height: 10em;
+    /* padding: 1em; */
+    border: 1px solid black;
+}
+
+.imgEvoPkmn {
+    width: 10%;
+    height: 10%;
+}
+
+.statsP {
+    margin: 2em;
+}
+
+.type {
+    text-align: center;
+    margin: 1em;
+}
+
+.articleLeft {
+    border: 1px solid black;
+}
+
+.articleRight {
     border: 1px solid black;
 }
