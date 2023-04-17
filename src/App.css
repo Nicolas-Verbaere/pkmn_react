@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+body {
+    background-color: #d6e5e9;
+    font-family: "Asap Condensed", sans-serif;
+    margin: 2em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+    font-size: 5em;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchPkmn {
+    margin: 2em;
+    font-size: 1.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+    border: solid 3px #70c1df;
+    border-radius: 3%;
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgPkmn {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+
+.pkmnCard {
+    background-color: #70c1df;
+}
+
+.namePkmn {
+    margin: 0.5em;
+    font-size: 1.5em;
+}
+
+/* PokemonInfo */
+
+.titleForeignName {
+    display: flex;
+    justify-content: space-around;
+}
+.foreignName {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sectionUp,
+.sectionDown {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    /* height: 50%; */
+}
+.sectionUp {
+    width: 55em;
+    /* height: 60%; */
+    position: absolute;
+    top: 10em;
+    justify-content: space-around;
+}
+
+.sectionDown {
+    /* width: 55em; */
+    /* height: 50%; */
+    position: absolute;
+    top: 33em;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    width: 27em;
+    height: 10em;
+    /* padding: 1em; */
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgEvoPkmn {
+    width: 10%;
+    height: 10%;
+}
+
+.statsP {
+    margin: 2em;
+}
+
+.type {
+    text-align: center;
+    margin: 1em;
+}
+
+.articleLeft {
+    /* border: 1px solid black; */
+    width: 25em;
+
+    /* height: 25em; */
+    /* margin-left: 2em; */
+}
+
+.articleRight {
+    /* border: 1px solid black; */
+    width: 25em;
+    /* margin: 1em 1em; */
+}
+
+.statsTitle,
+.evolutionTitle {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.miniImg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.statsPara {
+    margin-top: 0.7em;
+    margin-left: 0.7em;
+}
+
+.cardsEvo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.cardEvo {
+    border: solid 3px #70c1df;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    /* display: flex; */
+    /* flex-direction: row; */
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 5em;
+    flex-grow: 1;
+}
+
+.imgEvoPkmn {
+    margin: auto;
+    /* display: block; */
+    width: 100%;
+    height: 100%;
 }
